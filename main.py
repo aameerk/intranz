@@ -15,10 +15,10 @@ from mlxtend.frequent_patterns import apriori, association_rules
 import os
 st.set_page_config(page_title='Retail Recommendation System',layout='wide')
 st.header("Recommendation System")
-st.text('Created by Dharshini I')
+st.text('Created by Aameer khan')
 st.text("")
 st.subheader("Data")
-df = pd.read_excel('/Users/aameerkhan/Downloads/OnlineRetail.xlsx')
+df = pd.read_excel('/Users/Downloads/OnlineRetail.xlsx')
 st.write(df)
 st.text("")
 df.dropna(inplace=True)
